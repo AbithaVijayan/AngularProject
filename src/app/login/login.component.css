@@ -1,0 +1,9 @@
+.formsection{
+    text-align: left;
+    width: 400px;
+    position: relative;
+    left: 300px;
+    height: 200px;
+    vertical-align: middle ;
+    align-self: center;
+}

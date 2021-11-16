@@ -1,0 +1,23 @@
+<section id="menusection">
+    <table border="2">
+        <caption><h2>STUDENT DETAILS</h2></caption>
+        <thead>
+            <tr>
+                <th>STUDENT ID</th>
+                <th>STUDENT NAME</th>
+                <th>STUDENT CLASS</th>
+                <th>DETAILS</th>
+                <th>DELETE FOOD</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let student of studentArray">
+                <td>{{student.studId}}</td>
+                <td>{{student.studName}}</td>
+                <td>{{student.studClass}}</td>
+                <td><button [routerLink]="['/studentDetails',student.studId]">SHOW DETAILS</button></td>
+                <td><button [routerLink]="['/deleteStudent',student.studId]">DELETE</button></td>
+            </tr>
+        </tbody>
+    </table>
+</section>

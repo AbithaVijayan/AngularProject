@@ -1,0 +1,20 @@
+.routeSection{
+    height: 500px;
+    background-image: url("src/assets/Myimages/Student.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: black;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+a{
+    padding: 20px;
+}
+.activeLink{
+    background-color: yellowgreen;
+    border: 1px solid blue;
+}

@@ -1,0 +1,11 @@
+table{
+    width: 50%;
+    position: relative;
+    left: 200px;
+    background-color: pink;
+    text-align: center;
+
+}
+#menusection{
+    left: 100px;
+}

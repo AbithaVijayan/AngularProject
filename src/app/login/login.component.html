@@ -1,0 +1,14 @@
+<section class="formsection">
+    
+    <form [formGroup]="loginForm" (submit)="loginFun()">
+        <table>
+            <caption><h2>Login Form</h2></caption>
+    <tr><th><label>UserName :  </label></th>
+    <input type="text" name="uname" formControlName="userName"><br></tr>
+    <tr><th><label>Password  :  </label></th>
+    <input type="password" name="pass" formControlName="password"><br></tr>
+    <tr><th><input type="submit" value="LOGIN" [routerLink]="['/student']"></th>
+    <td><input type="reset"></td></tr>
+    </table>
+    </form>
+</section>

@@ -1,0 +1,13 @@
+<section class="header">
+  <a [routerLink]="['home']" [routerLinkActive]="['activeLink']">HOME</a>
+  <a [routerLink]="['login']" [routerLinkActive]="['activeLink']">LOGIN</a>
+  <a [routerLink]="['student']" [routerLinkActive]="['activeLink']">STUDENT DETAILS</a>
+  <a [routerLink]="['register']" [routerLinkActive]="['activeLink']">REGISTER</a>
+  <a [routerLink]="['logout']" [routerLinkActive]="['activeLink']">LOGOUT</a>
+</section>
+<section [ngClass]="['routeSection']">
+  <router-outlet></router-outlet>
+</section>
+<section>
+  <app-footer></app-footer>
+</section>
